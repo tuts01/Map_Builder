@@ -13,6 +13,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FragmentManager fm = getSupportFragmentManager();
-        Map mapFrag = (Map) fm.findFragmentById(R.layout.fragment_map);
+
+        MapFragment mapFrag = (MapFragment) fm.findFragmentById(R.id.map);
+        if(mapFrag == null) {
+            mapFrag = new MapFragment();
+            fm.beginTransaction().add(R.id.map, mapFrag).commit();
+        }
+
+        SelectorFragment selFrag = (SelectorFragment) fm.findFragmentById(R.id.selector);
+        if(selFrag == null) {
+            selFrag = new SelectorFragment();
+            fm.beginTransaction().add(R.id.selector, selFrag).commit();
+        }
     }
 }
