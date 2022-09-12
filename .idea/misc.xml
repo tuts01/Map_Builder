@@ -7,6 +7,12 @@
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/fragment_map.xml" value="0.3066123188405797" />
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/fragment_selector.xml" value="0.3066123188405797" />
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/grid_cell.xml" value="0.3066123188405797" />
+        <entry key="app/src/main/res/drawable/ic_building1.xml" value="0.118" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/fragment_selector.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/grid_cell.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_selection.xml" value="0.3296376546223959" />
       </map>
     </option>
   </component>
