@@ -2,11 +2,17 @@ package com.example.mapbuilder;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {//@link Fragment} subclass.
@@ -15,7 +21,43 @@ import android.view.ViewGroup;
  */
 public class SelectorFragment extends Fragment {
 
-/*    // TODO: Rename parameter arguments, choose names that match
+    private class StructureViewHolder extends RecyclerView.ViewHolder {
+        public StructureViewHolder(LayoutInflater li, ViewGroup parent) {
+            super(li.inflate(R.layout.list_selection, parent, false));
+        }
+
+        void bind(Structure structure) {
+
+        }
+    }
+
+    private class StructureAdapter extends RecyclerView.Adapter<StructureViewHolder> {
+        private List<Structure> data;
+
+        public StructureAdapter(List<Structure> data) {
+            this.data = data;
+        }
+
+        @NonNull
+        @Override
+        public StructureViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            LayoutInflater li = LayoutInflater.from(getActivity());
+
+            return new StructureViewHolder(li, parent);
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull StructureViewHolder vh, int position) {
+            vh.bind(data.get(position));
+        }
+
+        @Override
+        public int getItemCount() {
+            return data.size();
+        }
+    }
+
+    // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -37,7 +79,7 @@ public class SelectorFragment extends Fragment {
      * @return A new instance of fragment Selector.
      */
     // TODO: Rename and change types and number of parameters
-/*    public static SelectorFragment newInstance(String param1, String param2) {
+    public static SelectorFragment newInstance(String param1, String param2) {
         SelectorFragment fragment = new SelectorFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -54,13 +96,31 @@ public class SelectorFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-*/
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_selector, container, false);
 
+        RecyclerView rv = view.findViewById(R.id.mapRecyclerView);
+        rv.setLayoutManager(new LinearLayoutManager(getActivity());
+        List<Structure> data = getStructureData();
+        SelectorFragment.StructureAdapter adapter = new SelectorFragment.StructureAdapter(data);
+        rv.setAdapter(adapter);
+
         return view;
+    }
+
+    private ArrayList<Structure> getStructureData()
+    {
+        StructureData structures = StructureData.get();
+        ArrayList<Structure> structureArray = new ArrayList<Structure>(structures.size());
+
+        for(int i = 0; i < structures.size(); i++){
+            structureArray.add(structures.get(i));
+        }
+
+        return structureArray;
     }
 }

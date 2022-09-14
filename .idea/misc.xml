@@ -7,12 +7,37 @@
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/fragment_map.xml" value="0.3066123188405797" />
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/fragment_selector.xml" value="0.3066123188405797" />
         <entry key="..\:/Users/19836511/AndroidStudioProjects/MapBuilder/app/src/main/res/layout/grid_cell.xml" value="0.3066123188405797" />
-        <entry key="app/src/main/res/drawable/ic_building1.xml" value="0.118" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
-        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.17481884057971014" />
-        <entry key="app/src/main/res/layout/fragment_selector.xml" value="0.17481884057971014" />
-        <entry key="app/src/main/res/layout/grid_cell.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/list_selection.xml" value="0.3296376546223959" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_building1.xml" value="0.123" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_building3.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_building4.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_building8.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_east.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_north.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_northeast.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_northeast_concave.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_northwest.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_northwest_concave.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_south.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_southeast.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_coast_southeast_concave.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_grass2.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_e.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_ns.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_nsew.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_nw.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_sew.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_road_w.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_tree1.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_tree2.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_tree3.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/drawable/ic_water.xml" value="0.148" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/layout/fragment_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/layout/grid_cell.xml" value="0.1" />
+        <entry key="..\:/Users/Tristan/StudioProjects/Map_Builder/app/src/main/res/layout/list_selection.xml" value="0.1" />
       </map>
     </option>
   </component>
